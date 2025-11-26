@@ -20,3 +20,7 @@ Instale as dependências e compile
 mvn clean install
 
 mvn exec:java -Dexec.mainClass="Main"
+
+
+<img width="1041" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ae6d5b8-20cb-4006-972d-172349100c13" />
+
