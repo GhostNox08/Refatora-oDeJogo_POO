@@ -47,3 +47,5 @@ startup-refatorado/
 │ └── decision/
 │ └── DecisaoFactoryTest.java
 └── target/
+
+remoção do pom.xml devido a falhas constantes e instabilidade
