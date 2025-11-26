@@ -51,9 +51,4 @@ Imagem 3 (relatório do ranking.csv)
 
 <img width="662" height="72" alt="image" src="https://github.com/user-attachments/assets/3bc3f58d-0849-4b5b-9cdb-32572bb9602c" />
 
-
-
-
-
-
-
+Testes feitos no OnlineGDBjava Compiler
