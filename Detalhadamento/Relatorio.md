@@ -36,3 +36,24 @@ Bot toma decisões para as startups de forma automática e informada ao usuário
 Resultados finais (score e indicadores) exportados automaticamente para CSV.
 
 Persistência total dos dados e fácil re-jogo.
+
+Uso de Bot
+
+Imagem 1
+
+<img width="956" height="751" alt="image" src="https://github.com/user-attachments/assets/573036e5-43e7-44b5-86ce-27dfb382cfc2" />
+
+Imagem 2
+
+<img width="1270" height="253" alt="image" src="https://github.com/user-attachments/assets/dec869f2-7aa7-40e6-8c81-f66517e5944a" />
+
+Imagem 3 (relatório do ranking.csv)
+
+<img width="662" height="72" alt="image" src="https://github.com/user-attachments/assets/3bc3f58d-0849-4b5b-9cdb-32572bb9602c" />
+
+
+
+
+
+
+
