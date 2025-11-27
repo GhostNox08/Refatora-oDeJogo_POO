@@ -1,7 +1,3 @@
--- (Opcional, para testes/recriação)
-DROP TABLE IF EXISTS decisao;
-DROP TABLE IF EXISTS rodada;
-DROP TABLE IF EXISTS startup;
 
 CREATE TABLE IF NOT EXISTS startup (
     id IDENTITY PRIMARY KEY,
