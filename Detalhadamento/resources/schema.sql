@@ -13,19 +13,19 @@ CREATE TABLE IF NOT EXISTS startup (
 
 CREATE TABLE IF NOT EXISTS rodada (
     id_IDENTITY int PRIMARY KEY,
-    startup_id BIGINT NOT NULL,
+    startup_id int NOT NULL,
     numero INT,
     receita DOUBLE,
-    FOREIGN KEY (startup_id) REFERENCES startup(id)
+    FOREIGN KEY (startup_id) REFERENCES startup(id_IDENTITY)
 );
 
 CREATE TABLE IF NOT EXISTS decisao (
     id_IDENTITY int PRIMARY KEY,
-    startup_id BIGINT NOT NULL,
+    startup_id int NOT NULL,
     rodada INT,
     tipo VARCHAR(100),
     impacto VARCHAR(255),
-    FOREIGN KEY (startup_id) REFERENCES startup(id)
+    FOREIGN KEY (startup_id) REFERENCES startup(id_IDENTITY)
 );
 
 
