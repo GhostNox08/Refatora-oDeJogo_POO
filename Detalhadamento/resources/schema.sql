@@ -1,7 +1,9 @@
-CREATE DATABASE IF NOT EXISTS JOGO
+CREATE DATABASE IF NOT EXISTS JOGO;
+
+use JOGO;
 
 CREATE TABLE IF NOT EXISTS startup (
-    id IDENTITY PRIMARY KEY,
+    id_IDENTITY int PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     caixa DOUBLE,
     receita_base DOUBLE,
@@ -10,7 +12,7 @@ CREATE TABLE IF NOT EXISTS startup (
 );
 
 CREATE TABLE IF NOT EXISTS rodada (
-    id IDENTITY PRIMARY KEY,
+    id_IDENTITY int PRIMARY KEY,
     startup_id BIGINT NOT NULL,
     numero INT,
     receita DOUBLE,
@@ -18,7 +20,7 @@ CREATE TABLE IF NOT EXISTS rodada (
 );
 
 CREATE TABLE IF NOT EXISTS decisao (
-    id IDENTITY PRIMARY KEY,
+    id_IDENTITY int PRIMARY KEY,
     startup_id BIGINT NOT NULL,
     rodada INT,
     tipo VARCHAR(100),
